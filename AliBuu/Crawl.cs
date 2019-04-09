@@ -27,7 +27,7 @@ namespace AliBuu
                 _collecter = new Collecter(new CollecterOptions() { ThreadCount = Options.ThreadCount });
                 if(!OvhStorage.IsConnected)
                 {
-                    OvhStorage.SetupConnection("zJ9FnjuvKFQQ", "vF7Z8Pcb8drCkXGCWxqZPCvTNzfCe8k4", "891a6a019734496cb16e63309f983e54", "WAW1");
+                    OvhStorage.SetupConnection("", "", "", "WAW1");
                 }
             }
             else
